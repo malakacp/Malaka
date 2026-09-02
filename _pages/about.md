@@ -62,19 +62,56 @@ Over the past decade, I have led technical R&D and manufacturing translation for
 {% include selected_papers.liquid %}
 ---
 
-<div class="social text-center" style="font-size: 2rem; margin-top: 2rem;">
-  <div class="contact-icons">
-    <!-- CV Icon -->
-    <a href="{{ '/assets/pdf/malaka_cv.pdf' | relative_url }}" title="Download CV" target="_blank" rel="noopener noreferrer" style="margin: 0 15px; color: inherit;">
-      <i class="fa-solid fa-file-pdf"></i>
-    </a>
-    <!-- Email Icon -->
-    <a href="mailto:malaka718chathuranga@gmail.com" title="Email" style="margin: 0 15px; color: inherit;">
-      <i class="fa-solid fa-envelope"></i>
-    </a>
-    <!-- LinkedIn Icon -->
-    <a href="https://www.linkedin.com/in/malaka-perera-b5374053" title="LinkedIn" target="_blank" rel="noopener noreferrer" style="margin: 0 15px; color: inherit;">
-      <i class="fa-brands fa-linkedin"></i>
-    </a>
-  </div>
+---
+
+<div class="d-flex justify-content-center align-items-center gap-3 mt-4">
+  <!-- CV / Resume Icon -->
+  <a href="{{ '/assets/pdf/malaka_cv.pdf' | relative_url }}" 
+     title="Curriculum Vitae" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     class="modern-icon-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+      <polyline points="14 2 14 8 20 8"></polyline>
+      <text x="7.2" y="16.5" font-family="system-ui, -apple-system, sans-serif" font-size="6.2" font-weight="bold" fill="currentColor" stroke="none">CV</text>
+    </svg>
+  </a>
+
+  <!-- Email Icon -->
+  <a href="mailto:malaka718chathuranga@gmail.com" 
+     title="Email Me" 
+     class="modern-icon-btn">
+    <i class="fa-regular fa-envelope" style="font-size: 1.1rem;"></i>
+  </a>
+
+  <!-- LinkedIn Icon -->
+  <a href="https://www.linkedin.com/in/malaka-perera-b5374053" 
+     title="LinkedIn Profile" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     class="modern-icon-btn">
+    <i class="fa-brands fa-linkedin-in" style="font-size: 1.1rem;"></i>
+  </a>
 </div>
+
+<style>
+.modern-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(128, 128, 128, 0.1);
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid rgba(128, 128, 128, 0.18);
+}
+.modern-icon-btn:hover {
+  background: rgba(128, 128, 128, 0.22);
+  transform: translateY(-2px);
+  color: inherit;
+}
+</style>
