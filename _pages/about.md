@@ -11,7 +11,7 @@ profile:
 
 news: false
 selected_papers: true # Automatically displays your top patents below this bio
-social: true
+social: false
 ---
 
 I am an **Innovative Textile Engineer and Textile material designer** with over 10 years of R&D experience bridging advanced material science, 3D flatbed knitting, and commercial product engineering. Currently, I serve as **Deputy General Manager – Technology Entrepreneur** at **Twinery (Innovation by MAS)**, where I lead material white-space strategy and commercialize next-generation textile technologies.
@@ -54,3 +54,22 @@ Over the past decade, I have led technical R&D and manufacturing translation for
 * **Postgraduate in Material Science** — University of Moratuwa *(Research: Fabric-based Supercapacitors)*
 * **BSc. Engineering (Hons) in Textile Process Engineering** — University of Moratuwa *(Research: Touch-Sensitive Wearable Technology)*
 * **Chartered Institute of Management Accountants (CIMA)** — Pass Finalist
+
+---
+
+<div class="social text-center" style="font-size: 2rem; margin-top: 2rem;">
+  <div class="contact-icons">
+    <!-- CV Icon -->
+    <a href="{{ '/assets/pdf/malaka_cv.pdf' | relative_url }}" title="Download CV" target="_blank" rel="noopener noreferrer" style="margin: 0 15px; color: inherit;">
+      <i class="fa-solid fa-file-pdf"></i>
+    </a>
+    <!-- Email Icon -->
+    <a href="mailto:malaka718chathuranga@gmail.com" title="Email" style="margin: 0 15px; color: inherit;">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+    <!-- LinkedIn Icon -->
+    <a href="https://www.linkedin.com/in/malaka-perera-b5374053" title="LinkedIn" target="_blank" rel="noopener noreferrer" style="margin: 0 15px; color: inherit;">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+  </div>
+</div>
