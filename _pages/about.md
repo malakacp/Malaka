@@ -10,7 +10,7 @@ profile:
   image_circular: false # Change to true if you prefer a circular headshot
 
 news: false
-selected_papers: true # Automatically displays your top patents below this bio
+selected_papers: false # Automatically displays your top patents below this bio
 social: false
 ---
 
@@ -54,7 +54,11 @@ Over the past decade, I have led technical R&D and manufacturing translation for
 * **Postgraduate in Material Science** — University of Moratuwa *(Research: Fabric-based Supercapacitors)*
 * **BSc. Engineering (Hons) in Textile Process Engineering** — University of Moratuwa *(Research: Touch-Sensitive Wearable Technology)*
 * **Chartered Institute of Management Accountants (CIMA)** — Pass Finalist
+---
 
+## [Selected Patents]({{ '/publications/' | relative_url }})
+
+{% include selected_papers.liquid %}
 ---
 
 <div class="social text-center" style="font-size: 2rem; margin-top: 2rem;">
