@@ -54,6 +54,7 @@ Over the past decade, I have led technical R&D and manufacturing translation for
 * **Postgraduate in Material Science** — University of Moratuwa *(Research: Fabric-based Supercapacitors)*
 * **BSc. Engineering (Hons) in Textile Process Engineering** — University of Moratuwa *(Research: Touch-Sensitive Wearable Technology)*
 * **Chartered Institute of Management Accountants (CIMA)** — Pass Finalist
+  
 ---
 
 ## [Selected Patents]({{ '/publications/' | relative_url }})
