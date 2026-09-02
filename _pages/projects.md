@@ -1,11 +1,11 @@
 ---
 layout: page
 title: projects
-permalink: /Projects/
-description: A growing collection of your cool projects.
+permalink: /projects/
+description: Shipped commercial products, patented wearable systems, and award-winning R&D.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Commercial Launches, Award-Winning Products, MedTech & Wearables, Leisure]
 horizontal: false
 ---
 
