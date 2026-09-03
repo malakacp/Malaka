@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Shipped commercial products, patented wearable systems, and award-winning R&D.
 nav: true
