@@ -2,7 +2,7 @@
 layout: page
 title: The AI Agent That Lives on My Desk, Upcycling an Old HP Mini into a Private Telegram Assistant
 description: Transforming an idle Mini computer into a 24/7 private AI research assistant accessible via Telegram.
-img: assets/img/hermes_agent.jpg
+img: assets/img/hermes.png
 importance: 5
 category: Leisure
 ---
