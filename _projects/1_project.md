@@ -2,7 +2,7 @@
 layout: page
 title: Victoria's Secret Forever Bra — Circular 3D Knitted Pad
 description: The first-ever fully recyclable closed-loop bra pad engineered in partnership with MAS Holdings.
-img: assets/img/bra_cup.jpg
+img: assets/img/bra_cup.png
 importance: 1
 category: Commercial Launches
 related_publications: true
