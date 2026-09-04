@@ -2,7 +2,7 @@
 layout: page
 title: 3D-Knitted Performance Boxer Briefs (ISPO Award Winner)
 description: ISPO 2023 award-winning customizable performance undergarment featuring seamless 3D-knitted anatomical pouch and sweat-management zones.
-img: assets/img/boxer_preview.jpg
+img: assets/img/boxer.png
 importance: 2
 category: Award-Winning Products
 related_publications: true
