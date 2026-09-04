@@ -1,81 +1,70 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://www.wikipedia.org/
+title: Knitted Smart Therapeutic & Actuation sleeve
+description: Medical-grade pneumatic compression and vibration therapy wearables engineered with embedded actuation structures and integrated conductive pathways.
+img: assets/img/medical_wearable.jpg
 importance: 3
-category: work
+category: MedTech & Wearables
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Executive Summary
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Translating electro-mechanical therapy into consumer and clinical wearables requires bridging rigid components (actuators, pumps, motors, and wiring) with soft, stretchable textiles. This project engineered **seamless 3D flatbed-knitted platforms with embedded actuation structures and embeded conductive pathways**, enabling targeted pneumatic compression and localized vibration therapy for recovery, lymphatic drainage, and clinical wellness.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The underlying structural engineering is protected by multiple granted patents across Europe and the United States.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+---
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### 1. The Engineering Challenge
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+* **The Rigid-to-Soft Interface:** Integrating mechanical motors and pneumatic air bladders directly against the human body typically causes localized pressure points, chafing, and user discomfort.
+* **Trace Fatigue & Washability:** Conventional electrical wiring fractures quickly when subjected to cyclic bodily elongation, multi-axial strain, and moisture/sweat exposure.
+* **Controlled Kinetic Directionality:** In pneumatic compression and vibration systems, kinetic energy often dissipates uselessly outwards unless the surrounding textile provides engineered directional containment that forces pressure inward toward tissue.
+* **Manufacturing Complexity & Tolerance Drift:**  
+  Assembling a cut-and-sew smart wearable requires 15–20 manual labor steps—cutting different fabric, stitching pockets, threading wires through tunnels, and bonding seams. Hand-assembly introduces high variability in pocket placement and high SMV, resulting in unpredictable clinical compression performance.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+### 2. Technical Innovation & Methodology
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+As technical R&D lead, I engineered the multi-layered smart textile architectures:
 
-{% endraw %}
+* **Patented Knitted Actuation Architecture:** Engineered specialized 3D-knitted modular cavities and restraint sleeves that encapsulate pneumatic bladders and electronic device including pneumatic pump.The outer textile layer is engineered for low stretch to direct displacement inward, while the soft, stretchable skin-facing layer provides cushioning. This construction allows the bladder to inflate inward, maximizing efficiency.
+* **Patented Stretchable Conductive Pathways:** Formulated integrated conductive wire tracks within the knitted matrix that maintain stable electrical conductivity and low resistance across high elongation cycles and machine washing.
+* **Zonal Compression Profiling:** Programmed computerized flatbed knitting machinery (Stoll) with graduated stitch tension to deliver precise graduated pressure profiles (mmHg) to support circulation and lymphatic drainage.
+* **Precision Medical Soft-Goods:** Designed ergonomic, skin-friendly strap and headgear structures with high dimensional stability and breathability for extended medical interface wear.
+
+---
+
+### 3. Technical Specifications
+
+| Parameter | Conventional Medical Soft-Goods | Patented Knitted Actuation Solution |
+| :--- | :--- | :--- |
+| **Component Integration** | Assembled cut foam & sewn-in straps | **Seamlessly knitted functional cavities** |
+| **Wiring Architecture** | Bulky copper wiring & solder joints | **Integrated, stretchable conductive wire traces** |
+| **Pressure Directionality** | Uniform expansion (radial loss) | **Engineered directional modulus (targeted force)** |
+| **Skin Comfort** | Sweating and localized shear friction | **Breathable, multi-modulus breathable knit** |
+
+---
+
+### 4. Commercial Applications & Partnerships
+
+* **Vibration Therapy Systems:** Partnered on flat-knitted architectures and motor encapsulation for the **Therabody** vibration therapy recovery glove.
+* **Medical Respiratory Interfaces:** Engineered precision flat-knitted headgear and interface soft-goods for **ResMed**.
+* **Clinical Active Compression Platforms:** Developed knitted wraps supporting pneumatic air chambers and dynamic compression algorithms developed at Twinery for health and wellness applications.
+
+---
+
+### 5. Intellectual Property
+
+* **[EP Patent 4058624 A1](https://patents.google.com/patent/EP4058624A1/en)** — *Knitted structure for an actuation element* (Granted European Patent).
+---
+
+### 6. References
+
+1. **Twinery Active Compression Platform:**  
+   [Twinery by MAS — Medical-Grade Pneumatic Active Compression Technology](https://twinery.com/technology/active-compression/)
+
+2. **European Patent Office Granted Publication:**  
+   [EP4058624A1 — Knitted structure for an actuation element](https://patents.google.com/patent/EP4058624A1/en)
