@@ -2,7 +2,7 @@
 layout: page
 title: Active Knitted Heating Platform (CES Innovation Award)
 description: CES 2017 award-winning smart wearable heating platform engineered with seamlessly integrated conductive resistive yarns and closed-loop thermal regulation.
-img: assets/img/heating_preview.jpg
+img: assets/img/Tshirt.png
 importance: 4
 category: Award-Winning Products
 related_publications: true
