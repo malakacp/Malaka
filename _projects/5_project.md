@@ -39,7 +39,6 @@ Having an autonomous research partner in my pocket has significantly reduced cog
 * **Instant Article Synthesis:** When I come across lengthy industry articles or whitepapers while commuting, I forward the link to Telegram and receive a 3-bullet technical breakdown in seconds.
 * **Structuring Raw Ideas:** When an R&D concept or patent mechanism idea strikes, I dictate voice or raw notes into Telegram. The agent organizes the thoughts into structured technical outlines.
 * **Quick Technical Troubleshooting:** Acts as a quick sounding board for debugging home scripts or Linux terminal tasks.
-
 ---
 
 ### 3. Reflections as an Engineer
