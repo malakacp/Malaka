@@ -1,81 +1,80 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: 3D-Knitted Performance Boxer Briefs (ISPO Award Winner)
+description: ISPO 2023 award-winning customizable performance undergarment featuring seamless 3D-knitted anatomical pouch and sweat-management zones.
+img: assets/img/boxer_preview.jpg
 importance: 2
-category: work
-giscus_comments: true
+category: Award-Winning Products
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Executive Summary
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Traditional cut-and-sew men's underwear suffers from high friction, chafing, seam pressure points, and fabric ride-up during active movement. This project engineered a **fully-fashioned, seamless 3D flatbed-knitted boxer brief** featuring an ergonomically contoured anatomical pouch, integrated sweat-management mesh, and localized anti-ride-up compression zones. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The breakthrough won the prestigious **ISPO Award 2023** for innovation in performance apparel and is protected under international patent applications.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+---
+
+### Product Overview & Demonstration
+
+<div class="video-container text-center my-4">
+  <iframe width="100%" height="450" 
+          src="https://www.youtube.com/embed/6GYpgciLpvM" 
+          title="onEKnit Customizable Boxer Brief ISPO 2023 Winner" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen 
+          style="border-radius: 8px; border: 1px solid rgba(128,128,128,0.2);">
+  </iframe>
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### 1. The Engineering Challenge
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+* **Limitations of 2D Cut-and-Sew:** Standard undergarments join flat 2D textile panels with bulky overlock seams. Across active movement, these seams cause chafing against high-friction anatomical zones.
+* **Fit vs. Support Conflict:** Providing ergonomic anatomical support without restrictive compression requires complex 3D contouring that cannot be achieved with uniform-stretch flat fabrics.
+* **Thermal & Moisture Bottlenecks:** Sweating during high activity requires varied ventilation rates across distinct biological zones (groin vs. inner thigh vs. lumbar), which usually requires piecing together multiple disparate fabrics.
 
-{% raw %}
+---
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### 2. Technical Innovation & Methodology
 
-{% endraw %}
+As technical R&D lead, I engineered the multi-functional 3D knitting matrix:
+
+* **Seamless 3D Anatomical Pouch:** Programmed computerized flatbed knitting platforms (Stoll) to execute holding down knitting technique, different knit structures and loop-density variations, forming an ergonomic 3D pocket that provides natural suspended support without compression.
+* **Engineered Micro-Climate Zones:** Seamlessly transitioned from high-density, anti-ride-up support bands around the thighs into breathable, sweat-management mesh zones in heat-concentrated areas within a single uninterrupted knit material.
+* **Zero-Chafe Construction:** Eliminated irritating seam lines in critical friction zones, significantly reducing shear stress against the skin during repetitive motion.
+* **Zero-Waste On-Demand Architecture:** Because the garment is fully-fashioned directly off the knitting bed to precise geometry, cutting waste was reduced to near zero.
+
+---
+
+### 3. Engineering Specifications
+
+| Parameter | Standard Cut-and-Sew Boxer | Engineered 3D Knitted Solution |
+| :--- | :--- | :--- |
+| **Construction** | Multi-panel assembled with bulky seams | **Seamless whole-garment flatbed knit** |
+| **Pouch Architecture** | 2D darted seams (high friction) | **True seamless 3D volumetric pouch** |
+| **Zonal Functionality**| Uniform fabric throughout | **Localized compression, stretch & ventilation** |
+| **Chafing Risk** | Moderate to high during endurance movement | **Minimized (zero critical-zone seams)** |
+| **Fabric Waste** | 15–20% cut-and-sew scrap | **Near-zero scrap (Fully-fashioned)** |
+
+---
+
+### 4. Intellectual Property
+
+* **[Patent WO2022103334A1](https://patents.google.com/patent/WO2022103334A1/en)** — *Men's boxer with 3D knitted pouch and other seamless functionalities* (Published PCT Application).
+
+---
+
+### 5. References
+
+1. **Official Product Innovation Video:**  
+   [Twinery MAS — onEKnit Customizable Boxer Brief ISPO 2023 Winner](https://www.youtube.com/watch?v=6GYpgciLpvM)
+
+2. **ISPO Official Award Feature:**  
+   [ISPO Award 2023 for the Men's Customizable Boxer Briefs by Twinery](https://www.ispo.com/news-article/promotion/ispo-award-2023-for-the-men-s-customizable-boxer-briefs-by-twinery)
+
+3. **MAS Holdings Corporate Impact Report:**  
+   [MAS Holdings — Innovation Recognition & ISPO Award 2023](https://masholdings.com/impact_report/2023/introduction/our_plan_for_change.html)
