@@ -1,80 +1,49 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: The AI Agent That Lives on My Desk: Upcycling an Old HP Mini into a Private Telegram Assistant
+description: Transforming an idle Mini computer into a 24/7 private AI research assistant accessible via Telegram.
+img: assets/img/hermes_agent.jpg
+importance: 5
+category: Leisure
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### The Philosophy: Resourcefulness & Purposeful Innovation
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+In my professional R&D work, I focus heavily on sustainability and circular design—finding ways to eliminate waste and extract maximum value from raw materials. I apply that exact same philosophy to my personal life and home tech.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Rather than buying expensive cloud compute subscriptions or letting older electronics gather dust as e-waste, I decided to give an **older HP ProDesk 600 Mini PC** a high-utility second life. By transforming this compact machine into a **dedicated, 24/7 private Linux AI server**, I built a powerful personal research assistant powered by the **Hermes LLM family**, fully accessible from my phone via **Telegram**.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+This project reflects how I choose to spend my personal time: experimenting with emerging technology, repurposing existing resources, and building practical tools that solve everyday problems.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### 1. The Hardware & Setup: Doing More with What Exists
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+* **The Machine (HP ProDesk 600 Mini):** A small-form-factor, energy-efficient PC that was otherwise sitting idle. It draws minimal electricity, runs silently, and tucks away cleanly on a shelf.
+* **The OS & Environment:** Installed a stripped-down Linux server environment to maximize memory and compute efficiency without bloatware.
+* **The Model (Hermes Agent):** Deployed a quantized open-source Hermes model, optimized for low-latency reasoning and tool-calling on local CPU/RAM constraints.
+* **The Telegram Bridge:** Connected the local engine to a lightweight Telegram bot API, giving me an instant chat interface without needing specialized apps.
+* **Zero Cloud Dependence:** 100% of my queries, notes, and research stay entirely on my local network with complete privacy.
 
-{% raw %}
+---
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### 2. How It Solves My Day-to-Day Challenges
 
-{% endraw %}
+Having an autonomous research partner in my pocket has significantly reduced cognitive fatigue in daily decision-making:
+
+####  Deep Research & Decision Synthesis
+* When evaluating complex decisions—such as comparing equipment specifications, analyzing technical literature, or vetting consumer purchases—I text my criteria and constraints to Telegram.
+* The agent searches, filters noise, and returns a balanced **pros, cons, and trade-off matrix**, saving hours of scattered web browsing.
+
+####  Daily Problem-Solving & Workflow Hacks
+* **Instant Article Synthesis:** When I come across lengthy industry articles or whitepapers while commuting, I forward the link to Telegram and receive a 3-bullet technical breakdown in seconds.
+* **Structuring Raw Ideas:** When an R&D concept or patent mechanism idea strikes, I dictate voice or raw notes into Telegram. The agent organizes the thoughts into structured technical outlines.
+* **Quick Technical Troubleshooting:** Acts as a quick sounding board for debugging home scripts or Linux terminal tasks.
+
+---
+
+### 3. Reflections as an Engineer
+
+* **Circular Thinking Extends to Electronics:** True engineering isn't always about using the latest $10,000 GPU; it’s about understanding constraints and creatively maximizing what is already in front of you. Giving older hardware a high-intelligence second life is deeply satisfying.
+* **Frictionless Utility:** Complex tools fail if they require friction. By integrating the agent into an app I already use every day (Telegram), it seamlessly became an indispensable productivity multiplier.
+* **Intentional Time:** Using free time to build self-hosted systems has deepened my understanding of local LLM deployment, quantization, and autonomous agent loops.
