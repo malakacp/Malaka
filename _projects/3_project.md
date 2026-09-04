@@ -2,7 +2,7 @@
 layout: page
 title: Knitted Smart Therapeutic & Actuation sleeve
 description: Medical-grade pneumatic compression and vibration therapy wearables engineered with embedded actuation structures and integrated conductive pathways.
-img: assets/img/medical_wearable.jpg
+img: assets/img/compress.png
 importance: 3
 category: MedTech & Wearables
 related_publications: true
