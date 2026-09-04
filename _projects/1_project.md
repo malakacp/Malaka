@@ -21,6 +21,7 @@ By replacing foam with an engineered, breathable 3D knitted mono-material struct
        style="max-width: 85%; border: 1px solid rgba(128,128,128,0.2);">
   <p class="text-muted mt-2 small">Victoria's Secret Forever Bra — Circular 3D-Knitted Recyclable Pad Structure</p>
 </div>
+
 ---
 
 ### 1. The Engineering Challenge
